@@ -4,12 +4,12 @@
 
 ### Exercise 1
 
-_note: This exercise is 1 of 4 in a series of exercises that follow on form each other and should not be used indepently_
-_note: All exercises use the standard portal set-up for backbase trainings (Link to the archeype that we should use when developing on this course)_
+_note: This exercise is 1 of 5 in a series of exercises that follow on from each other and should not be used indepently_
+_note: All exercises use the [standard portal set-up for backbase trainings](https://my.backbase.com/resources/how-to-guides/getting-your-first-launchpad-based-portal-set-up/)_
 
 #### Description
 
-To create your first widget that will become a 'todo-mvc' example at the end of the series
+To create your first widget that will become a "todo-mvc" example at the end of the series
 
 #### Steps
 
@@ -18,7 +18,7 @@ To create your first widget that will become a 'todo-mvc' example at the end of 
  - Add a "limit" preference
  - Create a file called "server-catalog-widgets.xml" and use YAPI to import it
 
-#### Referances
+#### References
 
  - [Widget Development Methodology](https://github.com/Backbase/methodology-widget-development)
  - [Developing with widget templates](https://my.backbase.com/resources/documentation/portal/5.5.1.1/devd_comp_wdgt_jspt.html)
