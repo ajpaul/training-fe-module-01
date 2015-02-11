@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" xmlns:g="http://www.backbase.com/2008/gadget">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+ 
+        <title>Todo</title>
+
+        <link rel="stylesheet" href="css/todo.css"/>
+ 
+        <g:preferences>
+            <g:preference name="limit" label="Limit" viewHint="user,designModeOnly" type="text" default="5" />
+        </g:preferences>
+ 
+    </head>
+    <body g:onload="requireWidget(__WIDGET__, 'js/todo');" class="bt-todo">
+
+        <header class="bt-todo-header panel-body">
+            <div class="input-group">
+                <input class="bt-todo-new-text form-control" data-js="bt-todo-text" type="text"/>
+                <span class="input-group-btn">
+                    <button class="bt-todo-new-add btn btn-default" data-js="bt-todo-add">Add</button>
+                </span>
+            </div>
+        </header>
+        <section class="bt-todo-main lp-panel" data-js="bt-todo-main">
+            <div class="bt-todo-notodos alert alert-info" role="alert" data-js="bt-todo-notodos">No Todos Yet</div>
+            <ul class="bt-todo-list list-group hidden" data-js="bt-todo-list"></ul>
+        </section>
+
+        <script data-template="bt-todo-item-template" type="text/html">
+            <li class="bt-todo-item list-group-item" data-js="bt-todo-item">
+                <label class="bt-todo-label">
+                    <input type="checkbox" data-js="bt-todo-toggle-item" class="{{#narrow}}{{hidden}}{{/narrow}}"/> {{text}}
+                </label>
+                <button data-js="bt-todo-remove-item" class="btn btn-danger pull-right"><span class="glyphicon glyphicon-trash"></span> Remove</button>
+            </li>
+        </script>
+
+    </body>
+</html>
