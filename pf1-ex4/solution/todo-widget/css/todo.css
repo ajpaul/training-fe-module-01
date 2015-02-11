@@ -1,0 +1,32 @@
+.bt-todo-list {
+	margin: 0 0 12px;
+}
+
+.bt-todo-item {
+	line-height: 34px;
+	padding: 0 15px;
+}
+
+.bt-todo-label {
+	margin: 0;
+}
+
+.bt-todo-completed label {
+	text-decoration: line-through;
+}
+
+/*
+ * STEP 2: Hint: search for btn-danger in variables.less of your theme
+ */
+
+/*
+ * STEP 4: The following goes in the theme:
+ */
+
+.bt-todo-item button {
+	display: none;
+}
+
+.bt-todo-item:hover button {
+	display: inline-block;
+}
