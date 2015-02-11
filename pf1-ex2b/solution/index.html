@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" xmlns:g="http://www.backbase.com/2008/gadget">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+ 
+        <title>Todo</title>
+ 
+        <g:preferences>
+            <g:preference name="limit" label="Limit" viewHint="user,designModeOnly" type="text" default="5" />
+        </g:preferences>
+ 
+    </head>
+    <body g:onload="requireWidget(__WIDGET__, 'js/todo');" class="bt-todo">
+
+        <header class="bt-todo-header">
+            <input class="bt-todo-new-text" data-js="bt-todo-text" type="text"/>
+            <button class="bt-todo-new-add" data-js="bt-todo-add">Add</button>
+        </header>
+        <section class="bt-todo-main" data-js="bt-todo-main">
+            <div class="bt-todo-notodos" data-js="bt-todo-notodos">No Todos Yet</div>
+            <ul class="bt-todo-list hidden" data-js="bt-todo-list"></ul>
+        </section>
+
+        <script data-template="bt-todo-item-template" type="text/html">
+            <li class="bt-todo-item" data-js="bt-todo-item">
+                <label>
+                    <input type="checkbox" data-js="bt-todo-toggle-item"/> {{text}}
+                </label>
+                <button data-js="bt-todo-remove-item">Remove</button>
+            </li>
+        </script>
+
+    </body>
+</html>
