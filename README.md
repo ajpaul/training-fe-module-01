@@ -6,8 +6,8 @@ Everything you need to know about widgets - the digital building blocks of any a
 
 ### Contents
 
- - **pf1e1** (_Exercise 1_): Create your first widget
- - **pf1e2a** (_Exercise 2a_): Setup your widget development
- - **pf1e2b** (_Exercise 2b_): Create the todo application
- - **pf1e3** (_Exercise 3_): Enhance your widget
- - **pf1e4** (_Exercise 4_): Style your widget
+ - **pf1-ex1** (_Exercise 1_): Create your first widget
+ - **pf1-ex2a** (_Exercise 2a_): Setup your widget development
+ - **pf1-ex2b** (_Exercise 2b_): Create the todo application
+ - **pf1-e3** (_Exercise 3_): Enhance your widget
+ - **pf1-e4** (_Exercise 4_): Style your widget
