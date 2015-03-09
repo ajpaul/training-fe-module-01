@@ -1,14 +1,12 @@
-.bt-todo-list {
-	margin: 0 0 12px;
+.bt-todo-list,
+.bt-todo-notodos,
+.bt-todo-label {
+	margin: 0;
 }
 
 .bt-todo-item {
 	line-height: 34px;
-	padding: 0 15px;
-}
-
-.bt-todo-label {
-	margin: 0;
+	padding: 5px 15px;
 }
 
 .bt-todo-completed label {
@@ -24,9 +22,11 @@
  */
 
 .bt-todo-item button {
-	display: none;
+	//display: none;
+	visibility: hidden;
 }
 
 .bt-todo-item:hover button {
-	display: inline-block;
+	//display: inline-block;
+	visibility: visible;
 }

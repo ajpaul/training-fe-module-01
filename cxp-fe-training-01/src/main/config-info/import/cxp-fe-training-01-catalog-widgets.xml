@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalog>
+    <widget>
+        <name>pf1e1-todo</name>
+        <contextItemName>[BBHOST]</contextItemName>
+        <properties>
+            <property name="TemplateName">
+                <value type="string">Standard_Widget</value>
+            </property>
+            <property name="title">
+                <value type="string">(PF1E1) TODO Widget</value>
+            </property>
+            <property name="thumbnailUrl">
+                <value type="string">$(contextRoot)/static/dashboard/media/icons/icons-widgets_01-default.png</value>
+            </property>
+            <property label="Widget Chrome" name="widgetChrome" viewHint="select-one,user,designModeOnly">
+                <value type="string">$(contextRoot)/static/backbase.com.2012.aurora/html/chromes/widget_default.html</value>
+            </property>
+            <property name="src">
+                <value type="string">$(contextRoot)/static/cxp-fe-training-01/widgets/pf1e1-todo/index.html</value>
+            </property>
+        </properties>
+        <tags>
+            <tag type="section">training widgets</tag>
+            <tag type="regular">training</tag>
+        </tags>
+    </widget>
+    <widget>
+        <name>pf1e2a-todo</name>
+        <contextItemName>[BBHOST]</contextItemName>
+        <properties>
+            <property name="TemplateName">
+                <value type="string">Standard_Widget</value>
+            </property>
+            <property name="title">
+                <value type="string">(PF1E2a) TODO Widget</value>
+            </property>
+            <property name="thumbnailUrl">
+                <value type="string">$(contextRoot)/static/dashboard/media/icons/icons-widgets_01-default.png</value>
+            </property>
+            <property label="Widget Chrome" name="widgetChrome" viewHint="select-one,user,designModeOnly">
+                <value type="string">$(contextRoot)/static/backbase.com.2012.aurora/html/chromes/widget_default.html</value>
+            </property>
+            <property name="src">
+                <value type="string">$(contextRoot)/static/cxp-fe-training-01/widgets/pf1e2a-todo/index.html</value>
+            </property>
+        </properties>
+        <tags>
+            <tag type="section">training widgets</tag>
+            <tag type="regular">training</tag>
+        </tags>
+    </widget>
+    <widget>
+        <name>pf1e2b-todo</name>
+        <contextItemName>[BBHOST]</contextItemName>
+        <properties>
+            <property name="TemplateName">
+                <value type="string">Standard_Widget</value>
+            </property>
+            <property name="title">
+                <value type="string">(PF1E2b) TODO Widget</value>
+            </property>
+            <property name="thumbnailUrl">
+                <value type="string">$(contextRoot)/static/dashboard/media/icons/icons-widgets_01-default.png</value>
+            </property>
+            <property label="Widget Chrome" name="widgetChrome" viewHint="select-one,user,designModeOnly">
+                <value type="string">$(contextRoot)/static/backbase.com.2012.aurora/html/chromes/widget_default.html</value>
+            </property>
+            <property name="src">
+                <value type="string">$(contextRoot)/static/cxp-fe-training-01/widgets/pf1e2b-todo/index.html</value>
+            </property>
+        </properties>
+        <tags>
+            <tag type="section">training widgets</tag>
+            <tag type="regular">training</tag>
+        </tags>
+    </widget>
+    <widget>
+        <name>pf1e3-todo</name>
+        <contextItemName>[BBHOST]</contextItemName>
+        <properties>
+            <property name="TemplateName">
+                <value type="string">Standard_Widget</value>
+            </property>
+            <property name="title">
+                <value type="string">(PF1E3) TODO Widget</value>
+            </property>
+            <property name="thumbnailUrl">
+                <value type="string">$(contextRoot)/static/dashboard/media/icons/icons-widgets_01-default.png</value>
+            </property>
+            <property label="Widget Chrome" name="widgetChrome" viewHint="select-one,user,designModeOnly">
+                <value type="string">$(contextRoot)/static/backbase.com.2012.aurora/html/chromes/widget_default.html</value>
+            </property>
+            <property name="src">
+                <value type="string">$(contextRoot)/static/cxp-fe-training-01/widgets/pf1e3-todo/index.html</value>
+            </property>
+        </properties>
+        <tags>
+            <tag type="section">training widgets</tag>
+            <tag type="regular">training</tag>
+        </tags>
+    </widget>
+    <widget>
+        <name>pf1e3-todo-notification</name>
+        <contextItemName>[BBHOST]</contextItemName>
+        <properties>
+            <property name="TemplateName">
+                <value type="string">Standard_Widget</value>
+            </property>
+            <property name="title">
+                <value type="string">(PF1E3) TODO Notification Widget</value>
+            </property>
+            <property name="thumbnailUrl">
+                <value type="string">$(contextRoot)/static/dashboard/media/icons/icons-widgets_01-default.png</value>
+            </property>
+            <property label="Widget Chrome" name="widgetChrome" viewHint="select-one,user,designModeOnly">
+                <value type="string">$(contextRoot)/static/backbase.com.2012.aurora/html/chromes/widget_default.html</value>
+            </property>
+            <property name="src">
+                <value type="string">$(contextRoot)/static/cxp-fe-training-01/widgets/pf1e3-todo-notification/index.html</value>
+            </property>
+        </properties>
+        <tags>
+            <tag type="section">training widgets</tag>
+            <tag type="regular">training</tag>
+        </tags>
+    </widget>
+    <widget>
+        <name>pf1e4-todo</name>
+        <contextItemName>[BBHOST]</contextItemName>
+        <properties>
+            <property name="TemplateName">
+                <value type="string">Standard_Widget</value>
+            </property>
+            <property name="title">
+                <value type="string">(PF1E4) TODO Widget</value>
+            </property>
+            <property name="thumbnailUrl">
+                <value type="string">$(contextRoot)/static/dashboard/media/icons/icons-widgets_01-default.png</value>
+            </property>
+            <property label="Widget Chrome" name="widgetChrome" viewHint="select-one,user,designModeOnly">
+                <value type="string">$(contextRoot)/static/backbase.com.2012.aurora/html/chromes/widget_default.html</value>
+            </property>
+            <property name="src">
+                <value type="string">$(contextRoot)/static/cxp-fe-training-01/widgets/pf1e4-todo/index.html</value>
+            </property>
+        </properties>
+        <tags>
+            <tag type="section">training widgets</tag>
+            <tag type="regular">training</tag>
+        </tags>
+    </widget>
+    <widget>
+        <name>pf1e4-todo-notification</name>
+        <contextItemName>[BBHOST]</contextItemName>
+        <properties>
+            <property name="TemplateName">
+                <value type="string">Standard_Widget</value>
+            </property>
+            <property name="title">
+                <value type="string">(PF1E4) TODO Notification Widget</value>
+            </property>
+            <property name="thumbnailUrl">
+                <value type="string">$(contextRoot)/static/dashboard/media/icons/icons-widgets_01-default.png</value>
+            </property>
+            <property label="Widget Chrome" name="widgetChrome" viewHint="select-one,user,designModeOnly">
+                <value type="string">$(contextRoot)/static/backbase.com.2012.aurora/html/chromes/widget_default.html</value>
+            </property>
+            <property name="src">
+                <value type="string">$(contextRoot)/static/cxp-fe-training-01/widgets/pf1e4-todo-notification/index.html</value>
+            </property>
+        </properties>
+        <tags>
+            <tag type="section">training widgets</tag>
+            <tag type="regular">training</tag>
+        </tags>
+    </widget>
+</catalog>

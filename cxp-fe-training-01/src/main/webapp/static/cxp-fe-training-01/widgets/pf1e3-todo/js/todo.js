@@ -40,7 +40,7 @@ define(['portal!jquery','portal!launchpad/lib/ui/responsive'], function($, Respo
 				    item = Mustache.render(self.itemTemplate, {text: text, narrow: self.narrow, hidden: CLASSES.HIDDEN});
 				self.toggleMain();
 				self.$list.append(item);
-				gadgets.pubsub.publish('todos-updated', {totalTodos: self.$list.children(SELECTORS.ITEM).length});
+				gadgets.pubsub.publish('todos-updated', {action: "added", totalTodos: self.$list.children(SELECTORS.ITEM).length});
 			}
 		});
 
@@ -49,6 +49,7 @@ define(['portal!jquery','portal!launchpad/lib/ui/responsive'], function($, Respo
 			$item.toggleClass(CLASSES.COMPLETED);
 			var $checkbox = $(this).find(SELECTORS.TOGGLE_ITEM);
 			$checkbox.prop("checked", !$checkbox.prop("checked"));
+			gadgets.pubsub.publish('todos-updated', {action: ($item.hasClass(CLASSES.COMPLETED) ? "" : "un") + "completed", totalTodos: self.$list.children(SELECTORS.ITEM).length});
 		};
 
 		//self.$widgetBody.on('change', SELECTORS.TOGGLE_ITEM, toggleCompleted);
@@ -57,6 +58,7 @@ define(['portal!jquery','portal!launchpad/lib/ui/responsive'], function($, Respo
 			var $item = $(this).closest(SELECTORS.ITEM);
 			$item.remove();
 			self.toggleMain();
+			gadgets.pubsub.publish('todos-updated', {action: "removed", totalTodos: self.$list.children(SELECTORS.ITEM).length});
 		});
 
 		Responsive.enable(self.$widgetBody).rule({
