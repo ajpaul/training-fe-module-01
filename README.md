@@ -6,8 +6,8 @@ Everything you need to know about widgets - the digital building blocks of any a
 
 ### Contents
 
- - **pf1-ex1** (_Exercise 1_): Create your first widget
- - **pf1-ex2a** (_Exercise 2a_): Setup your widget development
- - **pf1-ex2b** (_Exercise 2b_): Create the todo application
- - **pf1-ex3** (_Exercise 3_): Enhance your widget
- - **pf1-ex4** (_Exercise 4_): Style your widget
+ - **pf1e1**: Create your first widget ([solution](cxp-fe-training-01/src/main/webapp/static/cxp-fe-training-01/widgets/pf1e1-todo))
+ - **pf1e2a**: Setup your widget development ([solution](cxp-fe-training-01/src/main/webapp/static/cxp-fe-training-01/widgets/pf1e2a-todo))
+ - **pf1e2b**: Create the todo application ([solution](cxp-fe-training-01/src/main/webapp/static/cxp-fe-training-01/widgets/pf1e2b-todo))
+ - **pf1ex3**: Enhance your widget ([todo widget](cxp-fe-training-01/src/main/webapp/static/cxp-fe-training-01/widgets/pf1e3-todo), [notification widget](cxp-fe-training-01/src/main/webapp/static/cxp-fe-training-01/widgets/pf1e3-todo-notification))
+ - **pf1ex4**: Style your widget ([todo widget](cxp-fe-training-01/src/main/webapp/static/cxp-fe-training-01/widgets/pf1e4-todo), [notification widget](cxp-fe-training-01/src/main/webapp/static/cxp-fe-training-01/widgets/pf1e4-todo-notification))
