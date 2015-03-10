@@ -20,7 +20,7 @@ In this exercise, you will create the basic layout and functionality for your to
 
 #### Additional resources
 
- - [cxp-fe-training-01-catalog-widgets.xml](../../../../../config-info/import/cxp-fe-training-01-catalog-widgets.xml#L53)
+ - [server-catalog-widgets.xml](../../../../../config-info/import/server-catalog-widgets.xml##L53-L77)
 
 #### References
 
