@@ -18,7 +18,7 @@ In this exercise, you will enhance your widget by adding some basic JavaScript f
 
 #### Additional resources
 
- - [cxp-fe-training-01-catalog-widgets.xml](../../../../../config-info/import/cxp-fe-training-01-catalog-widgets.xml)
+ - [cxp-fe-training-01-catalog-widgets.xml](../../../../../config-info/import/cxp-fe-training-01-catalog-widgets.xml#L29)
 
 #### References
 
