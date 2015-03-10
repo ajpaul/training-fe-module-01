@@ -20,7 +20,7 @@ In this exercise, you will scaffold your first widget, that will become a "todo-
 
 #### Additional resources
 
- - [cxp-fe-training-01-catalog-widgets.xml](../../../../config-info/import/cxp-fe-training-01-catalog-widgets.xml)
+ - [cxp-fe-training-01-catalog-widgets.xml](../../../../../config-info/import/cxp-fe-training-01-catalog-widgets.xml)
 
 #### References
 
