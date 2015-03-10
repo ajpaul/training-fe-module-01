@@ -14,10 +14,10 @@ In this exercise, you will style your widget using Twitter Bootstrap's CSS toolk
 #### Steps
 
  - Use Twitter Bootstrap's default classes to style your widget (form input, buttons, panels, etc.)
- - Using Twitter Bootstrap, make your "Delete Todo" button red, and with a trash bin as icon
+ - Using Twitter Bootstrap, make your **Delete Todo** button red, and with a trash bin as icon
  - Make your delete buttons black, by changing the variable in the default theme
  - The todos that are done, should have a ~~strike-through~~. Todo items that are not done should be bold
- - Create a global behavior, using only CSS. When hovering over an element, a button inside it appears. Use this behavior for your "Delete Todo" buttons
+ - Create a global behavior, using only CSS. When hovering over an element, a button inside it appears. Use this behavior for your **Delete Todo** buttons
 
 #### Additional resources
 
