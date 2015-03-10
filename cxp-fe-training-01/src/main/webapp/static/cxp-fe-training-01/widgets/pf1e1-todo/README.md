@@ -16,11 +16,11 @@ In this exercise, you will scaffold your first widget, that will become a "todo-
  - Create the folder structure for a "Todo" widget
  - Create your index.html
  - Add a "limit" preference
- - Create a file called "cxp-fe-training-01-catalog-widgets.xml" and use YAPI to import it
+ - Create a file called "server-catalog-widgets.xml" and use YAPI to import it
 
 #### Additional resources
 
- - [cxp-fe-training-01-catalog-widgets.xml](../../../../../config-info/import/cxp-fe-training-01-catalog-widgets.xml#L3)
+ - [server-catalog-widgets.xml](../../../../../config-info/import/server-catalog-widgets.xml#L3-L27)
 
 #### References
 
