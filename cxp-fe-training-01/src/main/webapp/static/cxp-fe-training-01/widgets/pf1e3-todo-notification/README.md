@@ -13,7 +13,8 @@ In this exercise, you will enable inter-widget communication by making use of Ba
 
 #### Steps
 
- - Create a notification widget. When you add a todo, this notification widget should display for 5 seconds: **"Todo added, total todos <amount of todos>"**
+ - Create a notification widget. When you add a todo, this notification widget should display for 5 seconds: **"Todo added, total todos {amount of todos}"**
+ - Implement similar behavior when removing or completing todo's
 
 #### Additional resources
 

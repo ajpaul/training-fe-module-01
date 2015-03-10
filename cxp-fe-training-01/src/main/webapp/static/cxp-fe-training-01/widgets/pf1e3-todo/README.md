@@ -15,7 +15,7 @@ In this exercise, you will enhance your widget by making use of preferences and 
 
  - Based on your preference, your widget should have a maximum number of not done todos. User shouldn't be able to add more, until he marks one as done
  - Make your Todo widget responsive. When less than 400px, the checkboxes should not appear, and the toggling of done/not done should happen by clicking the whole row
- - Create a [notification widget](../pf1e3-todo-notification/)
+ - Create a notification widget. When you add a todo, this notification widget should display for 5 seconds: **"Todo added, total todos {amount of todos}"**. Implement similar behavior when removing or completing todo's
 
 #### Additional resources
 
