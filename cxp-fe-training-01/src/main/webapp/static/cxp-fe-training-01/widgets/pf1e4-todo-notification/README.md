@@ -20,7 +20,7 @@ In this exercise, you will style your widget using Twitter Bootstrap's CSS toolk
 
 #### Additional resources
 
- - [cxp-fe-training-01-catalog-widgets.xml](../../../../config-info/import/cxp-fe-training-01-catalog-widgets.xml)
+ - [cxp-fe-training-01-catalog-widgets.xml](../../../../../config-info/import/cxp-fe-training-01-catalog-widgets.xml)
  - [todo widget](../pf1e4-todo/)
 
 #### References

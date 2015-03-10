@@ -19,7 +19,7 @@ In this exercise, you will enhance your widget by making use of preferences and 
 
 #### Additional resources
 
- - [cxp-fe-training-01-catalog-widgets.xml](../../../../config-info/import/cxp-fe-training-01-catalog-widgets.xml)
+ - [cxp-fe-training-01-catalog-widgets.xml](../../../../../config-info/import/cxp-fe-training-01-catalog-widgets.xml)
  - [notification widget](../pf1e3-todo-notification/)
 
 #### References
