@@ -14,7 +14,7 @@ In this exercise, you will create the basic layout and functionality for your to
 #### Requirements
 
  - There is a textbox and a button. When you press the button, whatever is in the textbox is added in the todos list
- - Each todo can be marked as done/not done by clicking a checkbox in front of it. The whole row gets a class **"bt-todo-done"** (_no styling_).
+ - Each todo can be marked as done/not done by clicking a checkbox in front of it. The whole row gets a class **bt-todo-done** (_no styling_).
  - Each todo should have a button to be able to remove it
  - No storing required
 
