@@ -9,7 +9,7 @@ _note: All exercises use the [standard portal set-up for backbase trainings](htt
 
 #### Description
 
-To style your widget
+In this exercise, you will style your widget using Twitter Bootstrap's CSS toolkit.
 
 #### Steps
 
@@ -17,6 +17,11 @@ To style your widget
  - Make your delete buttons black, by changing the variable in the default theme
  - The todos that are done, should have a ~~strike-through~~. Todo items that are not done should be bold
  - Create a global behavior, using only CSS. When hovering over an element, a button inside it appears. Use this behavior for your "delete todo" buttons
+
+#### Additional resources
+
+ - [cxp-fe-training-01-catalog-widgets.xml](../../../../config-info/import/cxp-fe-training-01-catalog-widgets.xml)
+ - [notification widget](../pf1e4-todo-notification/)
 
 #### References
 

@@ -1,15 +1,15 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-  <modelVersion>4.0.0</modelVersion>
+    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
 
-  <groupId>com.backbase.extensions</groupId>
-  <artifactId>cxp-fe-training-01</artifactId>
-  <version>1.0-SNAPSHOT</version>
-  <packaging>pom</packaging>
+    <groupId>com.backbase.extensions</groupId>
+    <artifactId>cxp-fe-training-01</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
 
-  <name>cxp-fe-training-01</name>
+    <name>cxp-fe-training-01</name>
 
-  <repositories>
+    <repositories>
         <repository>
             <id>Backbase Artifact Repository</id>
             <url>https://repo.backbase.com/repo</url>
@@ -35,11 +35,11 @@
     <build>
         <finalName>${widgets.zip.name}</finalName>
         <plugins>
-         <plugin>
-			 <groupId>org.apache.maven.plugins</groupId>
-			 <artifactId>maven-deploy-plugin</artifactId>
-			 <version>2.4</version>
-			</plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-deploy-plugin</artifactId>
+                <version>2.4</version>
+            </plugin>
 
             <!-- Do a mvn release:prepare and a mvn release:perform if you want to release -->
             <plugin>
@@ -54,25 +54,25 @@
                     <goals>deploy</goals>
                 </configuration>
             </plugin>
-       <plugin>
-		          <groupId>ro.isdc.wro4j</groupId>
-		          <artifactId>wro4j-maven-plugin</artifactId>
-		          <version>1.7.0</version>
-				    <executions>
-				      <execution>
-				        <phase>compile</phase>
-				        <goals>
-				          <goal>jshint</goal>
-				        </goals>
-				      </execution>
-				    </executions>
-				    <configuration>
-				      <options>jquery,devel,evil,noarg,eqnull,curly</options>
-				      <failNever>true</failNever>
-				     
-				      <wroFile>src/main/wro.xml</wroFile>
-				    </configuration>
-		        </plugin>
+            <plugin>
+                <groupId>ro.isdc.wro4j</groupId>
+                <artifactId>wro4j-maven-plugin</artifactId>
+                <version>1.7.0</version>
+                <executions>
+                    <execution>
+                        <phase>compile</phase>
+                        <goals>
+                            <goal>jshint</goal>
+                        </goals>
+                    </execution>
+                </executions>
+                <configuration>
+                    <options>jquery,devel,evil,noarg,eqnull,curly</options>
+                    <failNever>true</failNever>
+
+                    <wroFile>src/main/wro.xml</wroFile>
+                </configuration>
+            </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-resources-plugin</artifactId>
@@ -159,7 +159,7 @@
             </plugin>
         </plugins>
     </build>
-      <profiles>
+    <profiles>
         <profile>
             <id>backbase.com/repo</id>
             <distributionManagement>
@@ -195,4 +195,3 @@
         </profile>
     </profiles>
 </project>
-

@@ -2,7 +2,27 @@
 
 ## Portal Frontend - Module 1: Widget Development
 
-Everything you need to know about widgets - the digital building blocks of any application built with Backbase Portal. You'll learn about the concepts behind Backbase widgets, how to create a widget from scratch, giving them rich functionality and styling them according to Backbase best practices.
+Everything you need to know about widgets - the digital building blocks of any application built with Backbase Portal. You will learn about the concepts behind Backbase widgets, how to create a widget from scratch, giving them rich functionality and styling them according to Backbase best practices.
+
+### Installation & Configuration
+
+ 1. Copy and paste the **"cxp-fe-training-01"** folder in the **"bundles"** folder of your Launchpad 0.11.x project
+ 2. If it is not already there, add the `bundles.dir` property as a new property in portalserver/pom.xml:
+
+```xml
+<bundles.dir>${project.parent.basedir}/bundles</bundles.dir>
+```
+
+ 3. Add the bundle resource base in portalserver/pom.xml, e.g.:
+
+```xml
+<resourceBases>
+    <resourceBase>${bundles.dir}/cxp-fe-training-01/src/main/webapp</resourceBase>
+    <resourceBase>${project.basedir}/src/main/webapp</resourceBase>
+    <resourceBase>${work.dir}</resourceBase>
+</resourceBases>
+<extraClasspath>${bundles.dir}/cxp-fe-training-01/target/classes;${basedir}/target/classes/;${basedir}/target/portalserver/WEB-INF/classes</extraClasspath>
+```
 
 ### Contents
 

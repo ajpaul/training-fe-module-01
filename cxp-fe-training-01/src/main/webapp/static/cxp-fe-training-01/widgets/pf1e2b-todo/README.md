@@ -9,7 +9,7 @@ _note: All exercises use the [standard portal set-up for backbase trainings](htt
 
 #### Description
 
-To create the todo application
+In this exercise, you will create the basic layout and functionality for your todo widget.
 
 #### Requirements
 
@@ -17,6 +17,10 @@ To create the todo application
  - Each todo can be marked as done/not done by clicking a checkbox in front of it. The whole row gets a class **"bt-todo-done"** (_no styling_).
  - Each todo should have a button to be able to remove it
  - No storing required
+
+#### Additional resources
+
+ - [cxp-fe-training-01-catalog-widgets.xml](../../../../config-info/import/cxp-fe-training-01-catalog-widgets.xml)
 
 #### References
 

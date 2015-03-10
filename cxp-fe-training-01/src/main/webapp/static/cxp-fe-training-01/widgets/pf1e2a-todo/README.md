@@ -9,12 +9,16 @@ _note: All exercises use the [standard portal set-up for backbase trainings](htt
 
 #### Description
 
-To setup your widget development
+In this exercise, you will enhance your widget by adding some basic JavaScript functionality to it.
 
 #### Steps
 
  - Create your JavaScript file
  - Make sure it is included and the JavaScript code is running normally
+
+#### Additional resources
+
+ - [cxp-fe-training-01-catalog-widgets.xml](../../../../config-info/import/cxp-fe-training-01-catalog-widgets.xml)
 
 #### References
 
