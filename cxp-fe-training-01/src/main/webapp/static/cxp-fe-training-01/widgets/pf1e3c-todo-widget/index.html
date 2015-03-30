@@ -4,6 +4,8 @@
     <title>PF1E3C Todo Widget</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 
+    <link href="css/todo.css" rel="stylesheet" />
+
     <g:preferences>
         <g:preference name="limit" label="Todo's Limit" type="text" default="5" viewHint="none" />
     </g:preferences>
@@ -23,7 +25,7 @@
         <ul>
             {{ #tasks }}
             <li id="{{ idx }}" data-taskid="{{ idx }}" data-js="todo-row" class="{{ #done }}bt-todo-done{{ /done }}">
-                <span class="{{ #small }}hidden{{ /small }}">
+                <span class="done-check">
                     {{ #done }}
                     <input type="checkbox" data-js="update-task" data-taskid="{{ idx }}" checked="checked" />
                     {{ /done }}

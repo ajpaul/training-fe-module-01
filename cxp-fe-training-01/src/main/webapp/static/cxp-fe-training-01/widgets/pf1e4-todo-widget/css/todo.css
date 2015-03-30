@@ -1,3 +1,9 @@
+@media screen and (max-width: 399px) {
+    .ct-pf1e4-todo-widget .done-check {
+        display: none;
+    }
+}
+
 .ct-pf1e4-todo-widget {
 
 }
