@@ -1,0 +1,42 @@
+@media screen and (max-width: 399px) {
+    .ct-pf1e4-todo-widget .done-check {
+        display: none;
+    }
+}
+
+.ct-pf1e4-todo-widget {
+
+}
+
+.ct-pf1e4-todo-widget .space {
+    margin-right: 10px;
+}
+
+.ct-pf1e4-todo-widget .todo-list-wrapper,
+.ct-pf1e4-todo-widget .todo-list-wrapper ul li {
+    margin: 10px 0;
+}
+
+.ct-pf1e4-todo-widget .description {
+    font-weight: bold;
+}
+
+.ct-pf1e4-todo-widget .bt-todo-done .description {
+    font-weight: normal;
+    text-decoration: line-through;
+}
+
+.ct-pf1e4-todo-widget .remove-btn {
+    display: none;
+}
+
+.ct-pf1e4-todo-widget .todo-row {
+    display: block;
+    height: 35px;
+    line-height: 35px;
+    vertical-align: middle;
+}
+
+.ct-pf1e4-todo-widget .todo-row:hover .remove-btn {
+    display: inline-block;
+}
