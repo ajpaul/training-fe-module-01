@@ -1,4 +1,4 @@
-define(['jquery', 'launchpad/lib/ui/responsive'], function($, Responsive) {
+define(['jquery', 'launchpad/modules/ui/scripts/components/responsive/scripts/libs/responsive'], function($, Responsive) {
     'use strict';
 
     var self = null,
