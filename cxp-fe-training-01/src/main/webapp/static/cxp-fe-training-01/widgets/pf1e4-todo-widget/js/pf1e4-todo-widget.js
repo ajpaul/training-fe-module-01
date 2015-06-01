@@ -71,8 +71,6 @@ define(['jquery', 'launchpad/modules/ui/scripts/components/responsive/scripts/li
                     self.$widget.off('click', SELECTORS.UPDATE, self.updateTask);
                     // handles click on the whole row
                     self.$widget.on('click', SELECTORS.ROW, self.updateTask);
-                    // refresh the view
-                    self.updateList();
                 }
             })
             .rule({
@@ -82,8 +80,6 @@ define(['jquery', 'launchpad/modules/ui/scripts/components/responsive/scripts/li
                     self.$widget.off('click', SELECTORS.ROW, self.updateTask);
                     // handles click events on the checkboxes
                     self.$widget.on('click', SELECTORS.UPDATE, self.updateTask);
-                    // refresh the view
-                    self.updateList();
                 }
             });
 
