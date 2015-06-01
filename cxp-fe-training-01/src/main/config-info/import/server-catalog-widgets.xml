@@ -21,7 +21,8 @@
             </property>
         </properties>
         <tags>
-            <tag type="section">FE Training</tag>
+            <tag type="section">FE Training Widgets</tag>
+            <tag type="regular">training</tag>
         </tags>
     </widget>
     <widget>
@@ -48,7 +49,8 @@
             </property>
         </properties>
         <tags>
-            <tag type="section">FE Training</tag>
+            <tag type="section">FE Training Widgets</tag>
+            <tag type="regular">training</tag>
         </tags>
     </widget>
     <widget>
@@ -75,7 +77,8 @@
             </property>
         </properties>
         <tags>
-            <tag type="section">FE Training</tag>
+            <tag type="section">FE Training Widgets</tag>
+            <tag type="regular">training</tag>
         </tags>
     </widget>
     <widget>
@@ -102,7 +105,8 @@
             </property>
         </properties>
         <tags>
-            <tag type="section">FE Training</tag>
+            <tag type="section">FE Training Widgets</tag>
+            <tag type="regular">training</tag>
         </tags>
     </widget>
     <widget>
@@ -129,7 +133,8 @@
             </property>
         </properties>
         <tags>
-            <tag type="section">FE Training</tag>
+            <tag type="section">FE Training Widgets</tag>
+            <tag type="regular">training</tag>
         </tags>
     </widget>
     <widget>
@@ -153,7 +158,8 @@
             </property>
         </properties>
         <tags>
-            <tag type="section">FE Training</tag>
+            <tag type="section">FE Training Widgets</tag>
+            <tag type="regular">training</tag>
         </tags>
     </widget>
     <widget>
@@ -180,7 +186,8 @@
             </property>
         </properties>
         <tags>
-            <tag type="section">FE Training</tag>
+            <tag type="section">FE Training Widgets</tag>
+            <tag type="regular">training</tag>
         </tags>
     </widget>
     <widget>
@@ -204,7 +211,8 @@
             </property>
         </properties>
         <tags>
-            <tag type="section">FE Training</tag>
+            <tag type="section">FE Training Widgets</tag>
+            <tag type="regular">training</tag>
         </tags>
     </widget>
     <widget>
@@ -231,7 +239,8 @@
             </property>
         </properties>
         <tags>
-            <tag type="section">FE Training</tag>
+            <tag type="section">FE Training Widgets</tag>
+            <tag type="regular">training</tag>
         </tags>
     </widget>
 </catalog>
