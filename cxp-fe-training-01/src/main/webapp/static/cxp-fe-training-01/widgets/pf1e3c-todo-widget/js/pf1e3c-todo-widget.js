@@ -10,6 +10,9 @@ define(['jquery', 'launchpad/modules/ui/scripts/components/responsive/scripts/li
             'REMOVE': '[data-js="bt-pf1e3c-remove-task"]',
             'INPUT': ':input[name="task"]',
             'ROW': '[data-js="bt-pf1e3c-todo-row"]'
+        },
+        CLASSES = {
+            'HIDDEN': 'hidden'
         };
 
     /**
@@ -73,6 +76,8 @@ define(['jquery', 'launchpad/modules/ui/scripts/components/responsive/scripts/li
                     self.$widget.on('click', SELECTORS.ROW, self.updateTask);
                     // refresh the view
                     self.updateList();
+                    // hide checkboxes
+                    self.$widget.find(SELECTORS.UPDATE).addClass(CLASSES.HIDDEN);
                 }
             })
             .rule({
@@ -84,6 +89,8 @@ define(['jquery', 'launchpad/modules/ui/scripts/components/responsive/scripts/li
                     self.$widget.on('click', SELECTORS.UPDATE, self.updateTask);
                     // refresh the view
                     self.updateList();
+                    // show the checkboxes
+                    self.$widget.find(SELECTORS.UPDATE).removeClass(CLASSES.HIDDEN);
                 }
             });
 
