@@ -21,7 +21,8 @@
             </property>
         </properties>
         <tags>
-            <tag type="section">FE Training</tag>
+            <tag type="section">FE Training Widgets</tag>
+            <tag type="regular">training</tag>
         </tags>
     </widget>
     <widget>
@@ -43,12 +44,10 @@
             <property label="Widget Chrome" name="widgetChrome" viewHint="select-one,user,designModeOnly">
                 <value type="string">$(contextRoot)/static/backbase.com.2012.aurora/html/chromes/widget_none.html</value>
             </property>
-            <property label="Todo's Limit" name="limit" viewHint="none">
-                <value type="string">5</value>
-            </property>
         </properties>
         <tags>
-            <tag type="section">FE Training</tag>
+            <tag type="section">FE Training Widgets</tag>
+            <tag type="regular">training</tag>
         </tags>
     </widget>
     <widget>
@@ -70,12 +69,10 @@
             <property label="Widget Chrome" name="widgetChrome" viewHint="select-one,user,designModeOnly">
                 <value type="string">$(contextRoot)/static/backbase.com.2012.aurora/html/chromes/widget_none.html</value>
             </property>
-            <property label="Todo's Limit" name="limit" viewHint="none">
-                <value type="string">5</value>
-            </property>
         </properties>
         <tags>
-            <tag type="section">FE Training</tag>
+            <tag type="section">FE Training Widgets</tag>
+            <tag type="regular">training</tag>
         </tags>
     </widget>
     <widget>
@@ -97,12 +94,10 @@
             <property label="Widget Chrome" name="widgetChrome" viewHint="select-one,user,designModeOnly">
                 <value type="string">$(contextRoot)/static/backbase.com.2012.aurora/html/chromes/widget_none.html</value>
             </property>
-            <property label="Todo's Limit" name="limit" viewHint="none">
-                <value type="string">5</value>
-            </property>
         </properties>
         <tags>
-            <tag type="section">FE Training</tag>
+            <tag type="section">FE Training Widgets</tag>
+            <tag type="regular">training</tag>
         </tags>
     </widget>
     <widget>
@@ -124,12 +119,10 @@
             <property label="Widget Chrome" name="widgetChrome" viewHint="select-one,user,designModeOnly">
                 <value type="string">$(contextRoot)/static/backbase.com.2012.aurora/html/chromes/widget_none.html</value>
             </property>
-            <property label="Todo's Limit" name="limit" viewHint="none">
-                <value type="string">5</value>
-            </property>
         </properties>
         <tags>
-            <tag type="section">FE Training</tag>
+            <tag type="section">FE Training Widgets</tag>
+            <tag type="regular">training</tag>
         </tags>
     </widget>
     <widget>
@@ -153,7 +146,8 @@
             </property>
         </properties>
         <tags>
-            <tag type="section">FE Training</tag>
+            <tag type="section">FE Training Widgets</tag>
+            <tag type="regular">training</tag>
         </tags>
     </widget>
     <widget>
@@ -175,12 +169,10 @@
             <property label="Widget Chrome" name="widgetChrome" viewHint="select-one,user,designModeOnly">
                 <value type="string">$(contextRoot)/static/backbase.com.2012.aurora/html/chromes/widget_none.html</value>
             </property>
-            <property label="Todo's Limit" name="limit" viewHint="none">
-                <value type="string">5</value>
-            </property>
         </properties>
         <tags>
-            <tag type="section">FE Training</tag>
+            <tag type="section">FE Training Widgets</tag>
+            <tag type="regular">training</tag>
         </tags>
     </widget>
     <widget>
@@ -204,7 +196,8 @@
             </property>
         </properties>
         <tags>
-            <tag type="section">FE Training</tag>
+            <tag type="section">FE Training Widgets</tag>
+            <tag type="regular">training</tag>
         </tags>
     </widget>
     <widget>
@@ -226,12 +219,10 @@
             <property label="Widget Chrome" name="widgetChrome" viewHint="select-one,user,designModeOnly">
                 <value type="string">$(contextRoot)/static/backbase.com.2012.aurora/html/chromes/widget_none.html</value>
             </property>
-            <property label="Todo's Limit" name="limit" viewHint="none">
-                <value type="string">5</value>
-            </property>
         </properties>
         <tags>
-            <tag type="section">FE Training</tag>
+            <tag type="section">FE Training Widgets</tag>
+            <tag type="regular">training</tag>
         </tags>
     </widget>
 </catalog>

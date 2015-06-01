@@ -16,7 +16,7 @@ Everything you need to know about widgets - the digital building blocks of any a
 
 ### Installation & Configuration
 
- - Copy and paste the **cxp-fe-training-01** folder in the **statics/bundles** folder of your Launchpad 0.11.x project
+ - Copy and paste the **cxp-fe-training-01** folder in the **statics/bundles** folder of your Launchpad 0.12.x project
  - Add the bundle resource base in **portal/pom.xml**, e.g.:
 
 ```xml

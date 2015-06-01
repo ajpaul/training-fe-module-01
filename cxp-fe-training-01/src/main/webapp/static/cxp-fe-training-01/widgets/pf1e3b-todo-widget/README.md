@@ -17,7 +17,7 @@ In this exercise, you will enhance your widget by making use of preferences and 
 
 #### Additional resources
 
- - [server-catalog-widgets.xml](../../../../../config-info/import/server-catalog-widgets.xml#L78-L102)
+ - [server-catalog-widgets.xml](../../../../../config-info/import/server-catalog-widgets.xml#L103-L127)
 
 #### References
 

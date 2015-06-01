@@ -3,13 +3,13 @@ define(['jquery', 'launchpad/modules/ui/scripts/components/responsive/scripts/li
 
     var self = null,
         SELECTORS = {
-            'FORM': '[data-js="todo-form"]',
-            'LIST': '[data-js="todo-list"]',
-            'TEMPLATE': '[data-template="task"]',
-            'UPDATE': '[data-js="update-task"]',
-            'REMOVE': '[data-js="remove-task"]',
+            'FORM': '[data-js="bt-pf1e3c-todo-form"]',
+            'LIST': '[data-js="bt-pf1e3c-todo-list"]',
+            'TEMPLATE': '[data-template="bt-pf1e3c-task"]',
+            'UPDATE': '[data-js="bt-pf1e3c-update-task"]',
+            'REMOVE': '[data-js="bt-pf1e3c-remove-task"]',
             'INPUT': ':input[name="task"]',
-            'ROW': '[data-js="todo-row"]'
+            'ROW': '[data-js="bt-pf1e3c-todo-row"]'
         };
 
     /**
@@ -34,6 +34,9 @@ define(['jquery', 'launchpad/modules/ui/scripts/components/responsive/scripts/li
 
         // retrieve the task template
         self.template = self.$widget.find(SELECTORS.TEMPLATE).text();
+
+        // responsiveness flag
+        self.narrow = false;
 
         // get the limit preference
         self.getLimit();
@@ -67,6 +70,7 @@ define(['jquery', 'launchpad/modules/ui/scripts/components/responsive/scripts/li
             .rule({
                 'max-width': 399,
                 then: function() {
+                    self.narrow = true;
                     // disable click events on the checkboxes
                     self.$widget.off('click', SELECTORS.UPDATE, self.updateTask);
                     // handles click on the whole row
@@ -78,6 +82,7 @@ define(['jquery', 'launchpad/modules/ui/scripts/components/responsive/scripts/li
             .rule({
                 'min-width': 400,
                 then: function() {
+                    self.narrow = false;
                     // handles click on the whole row
                     self.$widget.off('click', SELECTORS.ROW, self.updateTask);
                     // handles click events on the checkboxes
@@ -86,8 +91,6 @@ define(['jquery', 'launchpad/modules/ui/scripts/components/responsive/scripts/li
                     self.updateList();
                 }
             });
-
-
     };
 
     /**
@@ -189,7 +192,7 @@ define(['jquery', 'launchpad/modules/ui/scripts/components/responsive/scripts/li
         // render the Mustache template based on the current array of tasks
         // only render if there are tasks in the task array!
         if(self.tasks.length > 0) {
-            self.$list.html(Mustache.render(self.template, {tasks: self.tasks}));
+            self.$list.html(Mustache.render(self.template, {tasks: self.tasks, narrow: self.narrow}));
         } else {
             self.$list.html('');
         }

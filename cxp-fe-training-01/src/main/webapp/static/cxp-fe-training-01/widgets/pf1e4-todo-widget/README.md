@@ -21,8 +21,8 @@ In this exercise, you will style your widget using Twitter Bootstrap's CSS toolk
 
 #### Additional resources
 
- - [server-catalog-widgets.xml](../../../../../config-info/import/server-catalog-widgets.xml#L128-L152)
- - [notification widget](../pf1e4-todo-notification/)
+ - [server-catalog-widgets.xml](../../../../../config-info/import/server-catalog-widgets.xml#L203-L227)
+ - [notification widget](../pf1e4-notification-widget/)
 
 #### References
 
