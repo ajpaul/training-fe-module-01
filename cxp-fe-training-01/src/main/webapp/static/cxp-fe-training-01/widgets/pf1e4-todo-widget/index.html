@@ -14,7 +14,7 @@
 <body g:onload="requireWidget(__WIDGET__, 'js/pf1e4-todo-widget')" class="bt-pf1e4-todo-widget">
     <h1>PF1E4 Todo Widget</h1>
 
-    <form name="add-todo" data-js="todo-form" class="form-inline">
+    <form name="add-todo" data-js="bt-pf1e4-todo-form" class="form-inline">
         <div class="form-group space">
             <input type="text" name="task" class="form-control" placeholder="Enter the task's description here..." />
         </div>
@@ -23,22 +23,22 @@
         </div>
     </form>
 
-    <div data-js="todo-list" class="todo-list-wrapper"></div>
+    <div data-js="bt-pf1e4-todo-list" class="todo-list-wrapper"></div>
 
-    <script type="text/mustache" data-template="task">
+    <script type="text/mustache" data-template="bt-pf1e4-task">
         <ul>
             {{ #tasks }}
-            <li id="{{ idx }}" data-taskid="{{ idx }}" data-js="todo-row" class="todo-row {{ #done }}bt-todo-done{{ /done }}">
+            <li id="{{ idx }}" data-taskid="{{ idx }}" data-js="bt-pf1e4-todo-row" class="todo-row {{ #done }}bt-todo-done{{ /done }}">
                 <span class="done-check space">
                     {{ #done }}
-                    <input type="checkbox" data-js="update-task" data-taskid="{{ idx }}" checked="checked" />
+                    <input type="checkbox" data-js="bt-pf1e4-update-task" data-taskid="{{ idx }}" checked="checked" />
                     {{ /done }}
                     {{ ^done }}
-                    <input type="checkbox" data-js="update-task" data-taskid="{{ idx }}" />
+                    <input type="checkbox" data-js="bt-pf1e4-update-task" data-taskid="{{ idx }}" />
                     {{ /done }}
                 </span>
                 <span class="description space">{{ description }}</span>
-                <span class="space"><a href="#" data-js="remove-task" data-taskid="{{ idx }}" class="remove-btn btn btn-danger"><span class="glyphicon glyphicon-trash"></span> remove</a></span>
+                <span class="space"><a href="#" data-js="bt-pf1e4-remove-task" data-taskid="{{ idx }}" class="remove-btn btn btn-danger"><span class="glyphicon glyphicon-trash"></span> remove</a></span>
             </li>
             {{ /tasks }}
         </ul>

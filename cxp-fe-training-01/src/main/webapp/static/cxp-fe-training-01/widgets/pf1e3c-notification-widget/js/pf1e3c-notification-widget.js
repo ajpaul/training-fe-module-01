@@ -3,8 +3,8 @@ define(['jquery'], function($) {
 
 	var self = null,
 		SELECTORS = {
-			'WRAPPER': '[data-js="message-wrapper"]',
-			'TEMPLATE': '[data-template="message"]'
+			'WRAPPER': '[data-js="bt-pf1e3c-message-wrapper"]',
+			'TEMPLATE': '[data-template="bt-pf1e3c-message"]'
 		};
 
 	/**

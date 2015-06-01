@@ -3,13 +3,13 @@ define(['jquery', 'launchpad/modules/ui/scripts/components/responsive/scripts/li
 
     var self = null,
         SELECTORS = {
-            'FORM': '[data-js="todo-form"]',
-            'LIST': '[data-js="todo-list"]',
-            'TEMPLATE': '[data-template="task"]',
-            'UPDATE': '[data-js="update-task"]',
-            'REMOVE': '[data-js="remove-task"]',
+            'FORM': '[data-js="bt-pf1e4-todo-form"]',
+            'LIST': '[data-js="bt-pf1e4-todo-list"]',
+            'TEMPLATE': '[data-template="bt-pf1e4-task"]',
+            'UPDATE': '[data-js="bt-pf1e4-update-task"]',
+            'REMOVE': '[data-js="bt-pf1e4-remove-task"]',
             'INPUT': ':input[name="task"]',
-            'ROW': '[data-js="todo-row"]'
+            'ROW': '[data-js="bt-pf1e4-todo-row"]'
         };
 
     /**

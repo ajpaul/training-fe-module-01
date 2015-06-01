@@ -3,11 +3,11 @@ define(['jquery'], function($) {
 
 	var self = null,
 		SELECTORS = {
-			'FORM': '[data-js="todo-form"]',
-			'LIST': '[data-js="todo-list"]',
-			'TEMPLATE': '[data-template="task"]',
-			'UPDATE': '[data-js="update-task"]',
-			'REMOVE': '[data-js="remove-task"]',
+			'FORM': '[data-js="bt-pf1e3a-todo-form"]',
+			'LIST': '[data-js="bt-pf1e3a-todo-list"]',
+			'TEMPLATE': '[data-template="bt-pf1e3a-task"]',
+			'UPDATE': '[data-js="bt-pf1e3a-update-task"]',
+			'REMOVE': '[data-js="bt-pf1e3a-remove-task"]',
 			'INPUT': ':input[name="task"]'
 		};
 
