@@ -10,9 +10,6 @@ define(['jquery', 'launchpad/modules/ui/scripts/components/responsive/scripts/li
             'REMOVE': '[data-js="bt-pf1e3c-remove-task"]',
             'INPUT': ':input[name="task"]',
             'ROW': '[data-js="bt-pf1e3c-todo-row"]'
-        },
-        CLASSES = {
-            'HIDDEN': 'hidden'
         };
 
     /**
@@ -37,6 +34,9 @@ define(['jquery', 'launchpad/modules/ui/scripts/components/responsive/scripts/li
 
         // retrieve the task template
         self.template = self.$widget.find(SELECTORS.TEMPLATE).text();
+
+        // responsiveness flag
+        self.narrow = false;
 
         // get the limit preference
         self.getLimit();
@@ -70,29 +70,25 @@ define(['jquery', 'launchpad/modules/ui/scripts/components/responsive/scripts/li
             .rule({
                 'max-width': 399,
                 then: function() {
+                    self.narrow = true;
                     // disable click events on the checkboxes
                     self.$widget.off('click', SELECTORS.UPDATE, self.updateTask);
                     // handles click on the whole row
                     self.$widget.on('click', SELECTORS.ROW, self.updateTask);
-                    // TODO: fix this
                     // refresh the view
                     self.updateList();
-                    // hide checkboxes
-                    self.$widget.find(SELECTORS.UPDATE).addClass(CLASSES.HIDDEN);
                 }
             })
             .rule({
                 'min-width': 400,
                 then: function() {
+                    self.narrow = false;
                     // handles click on the whole row
                     self.$widget.off('click', SELECTORS.ROW, self.updateTask);
                     // handles click events on the checkboxes
                     self.$widget.on('click', SELECTORS.UPDATE, self.updateTask);
-                    // TODO: fix this
                     // refresh the view
                     self.updateList();
-                    // show the checkboxes
-                    self.$widget.find(SELECTORS.UPDATE).removeClass(CLASSES.HIDDEN);
                 }
             });
     };
@@ -196,7 +192,7 @@ define(['jquery', 'launchpad/modules/ui/scripts/components/responsive/scripts/li
         // render the Mustache template based on the current array of tasks
         // only render if there are tasks in the task array!
         if(self.tasks.length > 0) {
-            self.$list.html(Mustache.render(self.template, {tasks: self.tasks}));
+            self.$list.html(Mustache.render(self.template, {tasks: self.tasks, narrow: self.narrow}));
         } else {
             self.$list.html('');
         }

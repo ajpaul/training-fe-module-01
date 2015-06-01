@@ -25,10 +25,10 @@
             <li id="{{ idx }}" data-taskid="{{ idx }}" data-js="bt-pf1e3c-todo-row" class="{{ #done }}bt-todo-done{{ /done }}">
                 <span class="done-check">
                     {{ #done }}
-                    <input type="checkbox" data-js="bt-pf1e3c-update-task" data-taskid="{{ idx }}" checked="checked" />
+                    <input type="checkbox" data-js="bt-pf1e3c-update-task" data-taskid="{{ idx }}" checked="checked" class="{{ #narrow }}hidden{{ /narrow }}" />
                     {{ /done }}
                     {{ ^done }}
-                    <input type="checkbox" data-js="bt-pf1e3c-update-task" data-taskid="{{ idx }}" />
+                    <input type="checkbox" data-js="bt-pf1e3c-update-task" data-taskid="{{ idx }}" class="{{ #narrow }}hidden{{ /narrow }}" />
                     {{ /done }}
                 </span>
                 <span>{{ description }}</span>
