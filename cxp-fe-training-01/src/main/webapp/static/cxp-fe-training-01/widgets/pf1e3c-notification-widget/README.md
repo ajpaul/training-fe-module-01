@@ -18,7 +18,7 @@ In this exercise, you will enable inter-widget communication by making use of Ba
 
 #### Additional resources
 
- - [server-catalog-widgets.xml](../../../../../config-info/import/server-catalog-widgets.xml#L103-L127)
+ - [server-catalog-widgets.xml](../../../../../config-info/import/server-catalog-widgets.xml#L128-L152)
  - [todo widget](../pf1e3c-todo-widget/)
 
 #### References

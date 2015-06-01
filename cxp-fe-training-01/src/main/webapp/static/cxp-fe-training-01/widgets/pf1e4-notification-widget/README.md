@@ -17,7 +17,7 @@ In this exercise, you will style your widget using Twitter Bootstrap's CSS toolk
 
 #### Additional resources
 
- - [server-catalog-widgets.xml](../../../../../config-info/import/server-catalog-widgets.xml#L153-L177)
+ - [server-catalog-widgets.xml](../../../../../config-info/import/server-catalog-widgets.xml#L178-L202)
  - [todo widget](../pf1e4-todo/)
 
 #### References
