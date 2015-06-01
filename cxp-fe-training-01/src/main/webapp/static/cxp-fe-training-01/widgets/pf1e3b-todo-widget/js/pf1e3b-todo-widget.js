@@ -75,6 +75,7 @@ define(['jquery', 'launchpad/modules/ui/scripts/components/responsive/scripts/li
                     // handles click on the whole row
                     self.$widget.on('click', SELECTORS.ROW, self.updateTask);
                     // refresh the view
+                    // TODO: fix this
                     self.updateList();
                     // hide checkboxes
                     self.$widget.find(SELECTORS.UPDATE).addClass(CLASSES.HIDDEN);
@@ -88,13 +89,12 @@ define(['jquery', 'launchpad/modules/ui/scripts/components/responsive/scripts/li
                     // handles click events on the checkboxes
                     self.$widget.on('click', SELECTORS.UPDATE, self.updateTask);
                     // refresh the view
+                    // TODO: fix this
                     self.updateList();
                     // show the checkboxes
                     self.$widget.find(SELECTORS.UPDATE).removeClass(CLASSES.HIDDEN);
                 }
             });
-
-
     };
 
     /**

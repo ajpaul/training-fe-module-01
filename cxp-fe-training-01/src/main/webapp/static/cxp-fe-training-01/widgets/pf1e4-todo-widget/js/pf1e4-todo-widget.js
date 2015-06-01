@@ -82,8 +82,6 @@ define(['jquery', 'launchpad/modules/ui/scripts/components/responsive/scripts/li
                     self.$widget.on('click', SELECTORS.UPDATE, self.updateTask);
                 }
             });
-
-
     };
 
     /**
