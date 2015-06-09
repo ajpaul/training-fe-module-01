@@ -1,4 +1,4 @@
-# Backbase Training Exercise
+# Backbase Training Exercises
 
 ## Portal Frontend - Module 1: Widget Development
 
