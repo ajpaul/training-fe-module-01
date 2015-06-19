@@ -1,31 +1,66 @@
-# Backbase Training Exercise
+# pf1e1-todo-widget
 
-## Portal Frontend - Module 1
+A fine launchpad 12 widget.
 
-### Exercise 1
+## Information
 
-_note: This exercise is 1 of 7 in a series of exercises that follow on from each other and should not be used independently_
-_note: All exercises use the [standard portal set-up for backbase trainings](https://my.backbase.com/resources/how-to-guides/getting-your-first-launchpad-based-portal-set-up/)_
+| name                  | version           | bundle           |
+| ----------------------|:-----------------:| ----------------:|
+| pf1e1-todo-widget      |0.1.0| cxp-fe-training-01       |
 
-#### Description
+## Widget Checklist
 
-In this exercise, you will scaffold your first widget, that will become a **todo-mvc** example at the end of the series.
+ - [ ] Fault Tolerance: Widget gracefully behaves/fails with loss of connection.
+ - [ ] Fault Tolerance: Widget gracefully fails if session is lost.
+ - [ ] Fault Tolerance: Widget gracefully and productively handles error responses.
+ - [ ] Extensibility: Look and feel is manageable via theming.
+ - [ ] Security: Secure from XSS.
+ - [ ] Security: Secure from CSRF.
+ - [ ] Accessibility: Support for color blind users.
+ - [ ] Accessibility: Support for users with motor-inability (keyboard navigation).
+ - [ ] Accessibility: Support for users who are blind (screen reader).
+ - [ ] i18n: All UI messages are externalized and localizable.
+ - [ ] i18n: All dates and numbers are localized.
+ - [ ] i18n: Works RTL.
+ - [ ] Mobile: SDK compatible.
+ - [ ] Mobile: Widget is responsive to mobile & tablet.
+ - [ ] Documentation: Reference files linked from README.
+ - [ ] Documentation: Dependencies (bower & UI components used) listed in README.
+ - [ ] Documentation: Modules/classes JSDoc.
+ - [ ] Documentation: Widget feature list documented.
+ - [ ] Testing: Distribution folder
 
-#### Steps
+## Dependencies
 
- - Create the folder structure for a **Todo** widget
- - Create your index.html
- - Add a **limit** preference
- - Create a file called **server-catalog-widgets.xml** and use YAPI to import it
+* [base][base-url]
+* [core][core-url]
+* [ui][ui-url]
 
-#### Additional resources
+## Dev Dependencies
 
- - [server-catalog-widgets.xml](../../../../../config-info/import/server-catalog-widgets.xml#L3-L27)
+* [angular-mocks ~1.2.28][angular-mocks-url]
+* [config][config-url]
 
-#### References
+## Preferences
+- List of widget preferences
 
- - [Widget Development Methodology](https://github.com/Backbase/methodology-widget-development)
- - [Developing with widget templates](https://my.backbase.com/resources/documentation/portal/5.5.1.1/devd_comp_wdgt_jspt.html)
- - [Widgets on steroids, how to](https://my.backbase.com/resources/how-to-guides/widgets-on-steroids-launchpad)
- - [Preferences](https://my.backbase.com/resources/documentation/portal/5.5.1.1/refc_gnam_preferences.html)
- - [Using Yapi](https://my.backbase.com/resources/how-to-guides/creating-your-first-portal-with-yapi)
+## Events
+- List of event the widget publishes/subscribes
+
+## Custom Components
+- list of widget custom components (if any)
+
+## Requirements
+
+### User Requirements
+
+### Business Requirements
+
+## References
+
+[base-url]:http://stash.backbase.com:7990/projects/lpm/repos/foundation-base/browse/
+[core-url]: http://stash.backbase.com:7990/projects/lpm/repos/foundation-core/browse/
+[ui-url]: http://stash.backbase.com:7990/projects/lpm/repos/ui/browse/
+[config-url]: https://stash.backbase.com/projects/LP/repos/config/browse
+[api-url]:http://stash.backbase.com:7990/projects/LPM/repos/api/browse/
+[angular-mocks-url]:https://github.com/angular/bower-angular-mocks

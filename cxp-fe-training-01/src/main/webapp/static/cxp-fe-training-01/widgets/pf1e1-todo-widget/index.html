@@ -1,15 +1,18 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:g="http://www.backbase.com/2008/gadget" xml:lang="en">
 <head>
-    <title>PF1E1 Todo Widget</title>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="Content-Type" content="text/xml; charset=UTF-8" />
+    <link rel="stylesheet" href="styles/base.css" type="text/css" />
 
     <g:preferences>
-        <g:preference name="limit" label="Todo's Limit" type="text" default="5" viewHint="user,text,designModeOnly" />
+        <g:preference name="limit" label="Limit" viewHint="user,designModeOnly" type="text" default="5" />
     </g:preferences>
 
 </head>
-<body class="bt-pf1e1-todo-widget">
-    <h1>PF1E1 Todo Widget</h1>
+
+<body g:onload="requireWidget(__WIDGET__, 'scripts/main')" ng-controller="MainCtrl as mainCtrl" class="lp-bt-pf1e1-todo-widget">
+
+    <lp-template src="templates/pf1e1-todo-widget-tpl.ng.html"></lp-template>
+
 </body>
 </html>
