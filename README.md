@@ -7,8 +7,7 @@ Everything you need to know about widgets - the digital building blocks of any a
 ### Contents
 
  - **pf1e1**: Create your first widget ([solution](cxp-fe-training-01/src/main/webapp/static/cxp-fe-training-01/widgets/pf1e1-todo-widget))
- - **pf1e2a**: Setup your widget development ([solution](cxp-fe-training-01/src/main/webapp/static/cxp-fe-training-01/widgets/pf1e2a-todo-widget))
- - **pf1e2b**: Create the todo application ([solution](cxp-fe-training-01/src/main/webapp/static/cxp-fe-training-01/widgets/pf1e2b-todo-widget))
+ - **pf1e2**: Create the todo application ([solution](cxp-fe-training-01/src/main/webapp/static/cxp-fe-training-01/widgets/pf1e2-todo-widget))
  - **pf1ex3a**: Use widget preferences ([solution](cxp-fe-training-01/src/main/webapp/static/cxp-fe-training-01/widgets/pf1e3a-todo-widget))
  - **pf1ex3b**: Make your widget responsive ([solution](cxp-fe-training-01/src/main/webapp/static/cxp-fe-training-01/widgets/pf1e3b-todo-widget))
  - **pf1ex3c**: Enable widget communication via PubSub ([solution](cxp-fe-training-01/src/main/webapp/static/cxp-fe-training-01/widgets/pf1e3c-todo-widget))
