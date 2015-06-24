@@ -13,7 +13,7 @@ In this exercise, you will scaffold your first widget, that will become a **todo
 
 #### Steps
 
- - Scaffold a "Todo" widget structure using the **bb generate** command of bb-cli (generate an **lp12-widget**)
+ - Scaffold a "Todo" widget structure using the **bb generate** command of bb-cli (generate an **lp12-widget**)
  - Add a **limit** preference in index.html
  - Use the **bb sync** command to import your widget in the Enterprise Catalog
 
