@@ -7,8 +7,10 @@ define(function (require, exports) {
     'use strict';
 
     // @ngInject
-    exports.MainCtrl = function(lpWidget, $scope, $timeout) {
+    exports.MainCtrl = function(lpWidget, $scope, $timeout, Gadgets) {
         var ctrl = this;
+
+        // console.log(Gadgets);
 
         ctrl.tasks = [];
 
@@ -50,6 +52,8 @@ define(function (require, exports) {
                 ctrl.tasks[taskIdx].done = !ctrl.tasks[taskIdx].done;
             }
 
+            ctrl.sendNotification('updated');
+
             return ctrl.tasks[taskIdx].done;
         };
 
@@ -72,6 +76,21 @@ define(function (require, exports) {
         }
 
         /**
+         * @method sendNotification
+         * sends a pubsub event viw the gadget library
+         * @return undefined
+         */
+        ctrl.sendNotification = function(notificationType) {
+            if(notificationType) {
+                Gadgets.pubsub.publish('todo:event', {
+                    type: notificationType,
+                    limit: ctrl.limit,
+                    amount: ctrl.tasks.length
+                });
+            }
+        };
+
+        /**
          * @method addTask
          * adds a new task in the array of tasks
          * @return {Object} newTask || undefined
@@ -85,6 +104,8 @@ define(function (require, exports) {
 
                 ctrl.tasks.push(newTask);
 
+                ctrl.sendNotification('added');
+
                 return newTask;
             }
         };
@@ -96,6 +117,8 @@ define(function (require, exports) {
          */
         ctrl.removeTask = function(taskId) {
             ctrl.tasks.splice(taskId, 1);
+
+            ctrl.sendNotification('removed');
         };
     };
 });

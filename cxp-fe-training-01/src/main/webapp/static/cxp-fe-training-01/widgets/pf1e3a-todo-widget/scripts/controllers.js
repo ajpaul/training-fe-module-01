@@ -12,11 +12,11 @@ define(function (require, exports) {
 
         ctrl.tasks = [];
 
-        ctrl.limit = lpWidget.model.getPreference('limit');
+        ctrl.limit = lpWidget.model.getPreference('limit') || 5;
 
         // listen to pref changes
         lpWidget.addEventListener('preferencesSaved', function() {
-            ctrl.limit = lpWidget.model.getPreference('limit');
+            ctrl.limit = lpWidget.model.getPreference('limit') || 5;
         });
 
         /**
