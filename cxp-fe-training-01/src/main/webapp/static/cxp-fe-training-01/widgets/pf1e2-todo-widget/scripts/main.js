@@ -12,7 +12,7 @@ define( function (require, exports, module) {
 
     'use strict';
 
-    module.name = 'pf1e2-todo-widget';
+    module.name = 'pf1e3a-todo-widget';
 
     var base = require('base');
     var core = require('core');
