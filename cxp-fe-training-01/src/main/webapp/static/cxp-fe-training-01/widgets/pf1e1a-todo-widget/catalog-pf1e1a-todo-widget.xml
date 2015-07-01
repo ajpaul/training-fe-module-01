@@ -1,16 +1,16 @@
 <catalog>
     <widget>
-        <name>pf1e1-todo-widget</name>
+        <name>pf1e1a-todo-widget</name>
         <contextItemName>[BBHOST]</contextItemName>
         <properties>
             <property name="src">
-                <value type="string">$(contextRoot)/static/cxp-fe-training-01/widgets/pf1e1-todo-widget/index.html</value>
+                <value type="string">$(contextRoot)/static/cxp-fe-training-01/widgets/pf1e1a-todo-widget/index.html</value>
             </property>
             <property name="thumbnailUrl">
                 <value type="string">$(contextRoot)/static/dashboard/media/icons/icons-widgets_01-default.png</value>
             </property>
             <property label="Title" name="title">
-                <value type="string">pf1e1-todo-widget</value>
+                <value type="string">pf1e1a-todo-widget</value>
             </property>
             <property name="TemplateName">
                 <value type="string">Standard_Widget</value>
