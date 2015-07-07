@@ -14,17 +14,19 @@ In this exercise, you will style your widget using Twitter Bootstrap's CSS toolk
 #### Steps
 
  - Use Twitter Bootstrap's default classes to style your widget (form input, buttons, panels, etc.)
- - Using Twitter Bootstrap, make your **Delete Todo** button red, and with a trash bin as icon
+ - Using Twitter Bootstrap, add a trash bin icon to your **Delete Todo** button
  - Make your delete buttons black, by changing the variable in the default theme
  - The todos that are done, should have a ~~strike-through~~. Todo items that are not done should be bold
  - Create a global behavior, using only CSS. When hovering over an element, a button inside it appears. Use this behavior for your **Delete Todo** buttons
 
 #### Additional resources
 
- - [server-catalog-widgets.xml](../../../../../config-info/import/server-catalog-widgets.xml#L203-L227)
- - [notification widget](../pf1e4-notification-widget/)
+ - [catalog-pf1e4-todo-widget.xml](catalog-pf1e4-todo-widget.xml)
 
 #### References
 
  - [Widget Development Methodology](https://github.com/Backbase/methodology-widget-development)
+ - [Launchpad 12 Developement Methodology](https://github.com/Backbase/methodology-launchpad-development)
+ - [BB-CLI Documentation](https://www.npmjs.com/package/bb-cli)
+ - [Launchpad 12 UI Components](http://launchpad.backbase.com:8080/bundles/launchpad-bundles/modules/ui/scripts/components/)
  - [Twitter Bootstrap](http://getbootstrap.com/)

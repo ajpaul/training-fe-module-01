@@ -2,7 +2,7 @@
 
 ## Portal Frontend - Module 1
 
-### Exercise 3
+### Exercise 3c
 
 _note: This exercise is 6 of 7 in a series of exercises that follow on from each other and should not be used independently_
 _note: All exercises use the [standard portal set-up for backbase trainings](https://my.backbase.com/resources/how-to-guides/getting-your-first-launchpad-based-portal-set-up/)_
@@ -18,13 +18,15 @@ In this exercise, you will enable inter-widget communication by making use of Ba
 
 #### Additional resources
 
- - [server-catalog-widgets.xml](../../../../../config-info/import/server-catalog-widgets.xml#L128-L152)
+ - [catalog-pf1e3c-notification-widget.xml](catalog-pf1e3c-notification-widget.xml)
  - [todo widget](../pf1e3c-todo-widget/)
 
 #### References
 
  - [Widget Development Methodology](https://github.com/Backbase/methodology-widget-development)
- - [Widgets on steroids, how to](https://my.backbase.com/resources/how-to-guides/widgets-on-steroids-launchpad)
+ - [Launchpad 12 Developement Methodology](https://github.com/Backbase/methodology-launchpad-development)
+ - [BB-CLI Documentation](https://www.npmjs.com/package/bb-cli)
+ - [Launchpad 12 UI Components](http://launchpad.backbase.com:8080/bundles/launchpad-bundles/modules/ui/scripts/components/)
  - [Responsive widgets, how to](https://my.backbase.com/resources/how-to-guides/look-mom-responsive-widgets)
  - [Inter-widget communication](https://my.backbase.com/resources/how-to-guides/inter-widget-communication)
  - [JavaScript API reference](https://docs.backbase.com/portal/5.5.0.0/jsdocapi/index.html#!/api)

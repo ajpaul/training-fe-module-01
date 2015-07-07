@@ -1,42 +1,18 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:g="http://www.backbase.com/2008/gadget" xml:lang="en">
 <head>
-    <title>PF1E3A Todo Widget</title>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="Content-Type" content="text/xml; charset=UTF-8" />
+    <link rel="stylesheet" href="styles/base.css" type="text/css" />
 
     <g:preferences>
-        <g:preference name="limit" label="Todo's Limit" type="text" default="5" viewHint="none" />
+        <g:preference name="limit" label="Limit" viewHint="user,designModeOnly" type="text" default="5" />
     </g:preferences>
 
 </head>
-<body g:onload="requireWidget(__WIDGET__, 'js/pf1e3a-todo-widget')" class="bt-pf1e3a-todo-widget">
-    <h1>PF1E3A Todo Widget</h1>
 
-    <form name="add-todo" data-js="bt-pf1e3a-todo-form">
-        <input type="text" name="task" placeholder="Enter the task's description here..." />
-        <input type="submit" value="add task" />
-    </form>
+<body g:onload="requireWidget(__WIDGET__, 'scripts/main')" ng-controller="MainCtrl as mainCtrl" class="lp-bt-pf1e3a-todo-widget">
 
-    <div data-js="bt-pf1e3a-todo-list"></div>
-
-    <script type="text/mustache" data-template="bt-pf1e3a-task">
-        <ul>
-            {{ #tasks }}
-            <li id="{{ idx }}" class="{{ #done }}bt-todo-done{{ /done }}">
-                <span>
-                    {{ #done }}
-                    <input type="checkbox" data-js="bt-pf1e3a-update-task" data-taskid="{{ idx }}" checked="checked" />
-                    {{ /done }}
-                    {{ ^done }}
-                    <input type="checkbox" data-js="bt-pf1e3a-update-task" data-taskid="{{ idx }}" />
-                    {{ /done }}
-                </span>
-                <span>{{ description }}</span>
-                <span><a href="#" data-js="bt-pf1e3a-remove-task" data-taskid="{{ idx }}">remove</a></span>
-            </li>
-            {{ /tasks }}
-        </ul>
-    </script>
+    <lp-template src="templates/pf1e3a-todo-widget-tpl.ng.html"></lp-template>
 
 </body>
 </html>

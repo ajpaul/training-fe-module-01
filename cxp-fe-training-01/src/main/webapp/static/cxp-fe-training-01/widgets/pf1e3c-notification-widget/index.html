@@ -1,16 +1,18 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:g="http://www.backbase.com/2008/gadget" xml:lang="en">
 <head>
-    <title>PF1E3C Notification Widget</title>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="Content-Type" content="text/xml; charset=UTF-8" />
+    <link rel="stylesheet" href="styles/base.css" type="text/css" />
+
+    <g:preferences>
+        <g:preference name="timeout" label="Timeout" viewHint="user,designModeOnly" type="text" default="5000" />
+    </g:preferences>
+
 </head>
-<body g:onload="requireWidget(__WIDGET__, 'js/pf1e3c-notification-widget')" class="bt-pf1e3c-notification-widget">
-    <h1>PF1E3C Notification Widget</h1>
 
-    <div data-js="bt-pf1e3c-message-wrapper"></div>
+<body g:onload="requireWidget(__WIDGET__, 'scripts/main')" ng-controller="MainCtrl as mainCtrl" class="lp-bt-pf1e3c-notification-widget">
 
-    <script type="text/mustache" data-template="bt-pf1e3c-message">
-        <p>A todo was just {{type}}. Total: {{total}} out of {{limit}} todos.</p>
-    </script>
+    <lp-template src="templates/pf1e3c-notification-widget-tpl.ng.html"></lp-template>
+
 </body>
 </html>
