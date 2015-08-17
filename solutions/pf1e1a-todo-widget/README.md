@@ -2,9 +2,9 @@
 
 ## Portal Frontend - Module 1
 
-### Exercise 1
+### Exercise 1a
 
-_note: This exercise is 2 of 7 in a series of exercises that follow on from each other and should not be used independently_
+_note: This exercise is 1 of 7 in a series of exercises that follow on from each other and should not be used independently_
 _note: All exercises use the [standard portal set-up for backbase trainings](https://my.backbase.com/resources/how-to-guides/getting-your-first-launchpad-based-portal-set-up/)_
 
 #### Description
@@ -13,12 +13,14 @@ In this exercise, you will scaffold your first widget, that will become a **todo
 
 #### Steps
 
- - Add a **limit** preference in your Todo widget
- - Use the **bb sync** command to sync the new property in the Enterprise Catalog
+ - Scaffold a "Todo" widget structure using the **bb generate** command of bb-cli (generate an **lp12-widget**)
+ - Open the template, add a heading
+ - Create a zip file of your widget
+ - Import your widget in the Enterprise Catalog and enable it for your portal=
 
 #### Additional resources
 
- - [catalog-pf1e1b-todo-widget.xml](catalog-pf1e1b-todo-widget.xml)
+ - [model.xml](model.xml)
 
 #### References
 
