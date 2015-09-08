@@ -18,6 +18,10 @@
             <property label="Widget Chrome" name="widgetChrome" viewHint="select-one,user,designModeOnly">
                 <value type="string">$(contextRoot)/static/backbase.com.2012.aurora/html/chromes/widget_none.html</value>
             </property>
+            <!-- Custom properties-->
+            <property label="Timeout" name="timeout" viewHint="user,designModeOnly">
+                <value type="string">5000</value>
+            </property>
         </properties>
         <tags>
             <tag type="section">FE Training Widgets</tag>

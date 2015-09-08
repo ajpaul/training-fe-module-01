@@ -13,10 +13,11 @@ In this exercise, you will scaffold your first widget, that will become a **todo
 
 #### Steps
 
- - Scaffold a "Todo" widget structure using the **bb generate** command of bb-cli (generate an **lp12-widget**)
+ - Scaffold a "Todo" widget structure using the **bb generate** command of bb-cli (generate an **lp56-widget**)
  - Open the template, add a heading
- - Create a zip file of your widget
- - Import your widget in the Enterprise Catalog and enable it for your portal
+ - Use the command **bb import-item** to do the following
+    - Create a zip file of your widget
+    - Import your widget in the Enterprise Catalog and enable it for your portal
 
 #### Additional resources
 
@@ -25,6 +26,6 @@ In this exercise, you will scaffold your first widget, that will become a **todo
 #### References
 
  - [Widget Development Methodology](https://github.com/Backbase/methodology-widget-development)
- - [Launchpad 12 Developement Methodology](https://github.com/Backbase/methodology-launchpad-development)
+ - [Launchpad Development Methodology](https://github.com/Backbase/methodology-launchpad-development)
  - [BB-CLI Documentation](https://www.npmjs.com/package/bb-cli)
  - [Preferences](https://my.backbase.com/resources/documentation/portal/5.5.1.1/refc_gnam_preferences.html)

@@ -9,7 +9,7 @@ _note: All exercises use the [standard portal set-up for backbase trainings](htt
 
 #### Description
 
-In this exercise, you will create the basic layout and functionality for your todo widget using Launchpad 12 UI Components.
+In this exercise, you will create the basic layout and functionality for your todo widget using Launchpad UI Components.
 
 #### Steps
 
@@ -29,6 +29,6 @@ In this exercise, you will create the basic layout and functionality for your to
 #### References
 
  - [Widget Development Methodology](https://github.com/Backbase/methodology-widget-development)
- - [Launchpad 12 Developement Methodology](https://github.com/Backbase/methodology-launchpad-development)
+ - [Launchpad Development Methodology](https://github.com/Backbase/methodology-launchpad-development)
  - [BB-CLI Documentation](https://www.npmjs.com/package/bb-cli)
- - [Launchpad 12 UI Components](http://launchpad.backbase.com:8080/bundles/launchpad-bundles/modules/ui/scripts/components/)
+ - [Launchpad UI Components](http://launchpad.backbase.com:8080/bundles/launchpad-bundles/modules/ui/scripts/components/)

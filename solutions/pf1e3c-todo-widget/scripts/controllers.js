@@ -5,6 +5,15 @@
 define(function (require, exports) {
 
     'use strict';
+    var CONST = {
+        THING : 'todo'
+    };
+
+    //Events would be better in an external module and used across the application
+    var EVENT = {
+        NOTIFICATION_MESSAGE : 'global-message:event'
+    };
+
 
     // @ngInject
     exports.MainCtrl = function(lpWidget, $scope, $timeout, Gadgets) {
@@ -82,10 +91,11 @@ define(function (require, exports) {
          */
         ctrl.sendNotification = function(notificationType) {
             if(notificationType) {
-                Gadgets.pubsub.publish('todo:event', {
+                Gadgets.pubsub.publish(EVENT.NOTIFICATION_MESSAGE, {
                     type: notificationType,
                     limit: ctrl.limit,
-                    amount: ctrl.tasks.length
+                    amount: ctrl.tasks.length,
+                    thing: CONST.THING
                 });
             }
         };

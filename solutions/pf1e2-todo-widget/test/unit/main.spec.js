@@ -21,7 +21,7 @@ var Widget = require('./widget.mock');
 /* Widget unit tests
 /*----------------------------------------------------------------*/
 describe('Widget test ', function() {
-    var lpWidget
+    var lpWidget;
     /*----------------------------------------------------------------*/
     /* Mock modules/Providers
     /*----------------------------------------------------------------*/

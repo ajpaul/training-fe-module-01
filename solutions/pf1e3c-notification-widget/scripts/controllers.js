@@ -6,6 +6,12 @@ define(function (require, exports) {
 
     'use strict';
 
+    //Events would be better in an external module and used across the application
+    var EVENT = {
+        NOTIFICATION_MESSAGE : 'global-message:event'
+    };
+
+
     // @ngInject
     exports.MainCtrl = function(Gadgets, lpWidget, $scope, $timeout) {
         var ctrl = this; //self this controller
@@ -20,7 +26,7 @@ define(function (require, exports) {
             ctrl.timeout = lpWidget.model.getPreference('timeout') || 5000;
         });
 
-        Gadgets.pubsub.subscribe('todo:event', function(data) {
+        Gadgets.pubsub.subscribe(EVENT.NOTIFICATION_MESSAGE, function(data) {
             ctrl.message = data;
             $scope.$apply(); //async stuff, we need to refresh the scope...
 
