@@ -15,11 +15,11 @@
             <property name="TemplateName">
                 <value type="string">Standard_Widget</value>
             </property>
-            <property label="Widget Chrome" name="widgetChrome" viewHint="select-one,user,designModeOnly">
+            <property label="Widget Chrome" name="widgetChrome" viewHint="select-one,manager,designModeOnly">
                 <value type="string">$(contextRoot)/static/backbase.com.2012.aurora/html/chromes/widget_none.html</value>
             </property>
             <!-- Custom properties-->
-            <property label="Limit" name="limit" viewHint="user,designModeOnly">
+            <property label="Limit" name="limit" viewHint="manager,designModeOnly">
                 <value type="string">5</value>
             </property>
         </properties>
