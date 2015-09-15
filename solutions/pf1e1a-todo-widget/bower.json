@@ -1,7 +1,7 @@
 {
   "name": "pf1e1a-todo-widget",
   "version": "0.1.0",
-  "description": "A fine launchpad 12 widget.",
+  "description": "A fine launchpad widget.",
   "main": "./scripts/main.js",
   "repository": {
     "type": "git",

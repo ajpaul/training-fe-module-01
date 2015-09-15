@@ -2,7 +2,6 @@
 
 <div>
     <lp-card title="Notifications">
-        <!-- <div ng-repeat="{{notification in mainCtrl.notifications}}">{{notification}}</div> -->
-        <div ng-if="mainCtrl.message">1 todo {{mainCtrl.message.type}}! {{mainCtrl.message.amount}} out of {{mainCtrl.message.limit}} todo's.</div>
+        <div ng-if="mainCtrl.message">1 {{mainCtrl.message.thing}} {{mainCtrl.message.type}}! {{mainCtrl.message.amount}} out of {{mainCtrl.message.limit}} {{mainCtrl.message.thing}}'s.</div>
     </lp-card>
 </div>

@@ -26,7 +26,7 @@ In this exercise, you will style your widget using Twitter Bootstrap's CSS toolk
 #### References
 
  - [Widget Development Methodology](https://github.com/Backbase/methodology-widget-development)
- - [Launchpad 12 Developement Methodology](https://github.com/Backbase/methodology-launchpad-development)
+ - [Launchpad Development Methodology](https://github.com/Backbase/methodology-launchpad-development)
  - [BB-CLI Documentation](https://www.npmjs.com/package/bb-cli)
- - [Launchpad 12 UI Components](http://launchpad.backbase.com:8080/bundles/launchpad-bundles/modules/ui/scripts/components/)
+ - [Launchpad UI Components](http://launchpad.backbase.com:8080/bundles/launchpad-bundles/modules/ui/scripts/components/)
  - [Twitter Bootstrap](http://getbootstrap.com/)

@@ -24,9 +24,9 @@ In this exercise, you will enable inter-widget communication by making use of Ba
 #### References
 
  - [Widget Development Methodology](https://github.com/Backbase/methodology-widget-development)
- - [Launchpad 12 Developement Methodology](https://github.com/Backbase/methodology-launchpad-development)
+ - [Launchpad Development Methodology](https://github.com/Backbase/methodology-launchpad-development)
  - [BB-CLI Documentation](https://www.npmjs.com/package/bb-cli)
- - [Launchpad 12 UI Components](http://launchpad.backbase.com:8080/bundles/launchpad-bundles/modules/ui/scripts/components/)
+ - [Launchpad UI Components](http://launchpad.backbase.com:8080/bundles/launchpad-bundles/modules/ui/scripts/components/)
  - [Responsive widgets, how to](https://my.backbase.com/resources/how-to-guides/look-mom-responsive-widgets)
  - [Inter-widget communication](https://my.backbase.com/resources/how-to-guides/inter-widget-communication)
  - [JavaScript API reference](https://docs.backbase.com/portal/5.5.0.0/jsdocapi/index.html#!/api)
