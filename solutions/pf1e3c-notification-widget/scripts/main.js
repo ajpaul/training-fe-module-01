@@ -29,7 +29,6 @@ define( function (require, exports, module) {
     }
 
     module.exports = base.createModule(module.name, deps)
-        .service( require('./gadgetService') )
         .controller( require('./controllers') )
         .run( run );
 });

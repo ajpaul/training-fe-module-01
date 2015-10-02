@@ -13,7 +13,7 @@ define(function (require, exports) {
 
 
     // @ngInject
-    exports.MainCtrl = function(Gadgets, lpWidget, $scope, $timeout) {
+    exports.MainCtrl = function(lpWidget, $scope, $timeout, lpCoreBus) {
         var ctrl = this; //self this controller
         var activeTimeout = null;
 
@@ -26,7 +26,7 @@ define(function (require, exports) {
             ctrl.timeout = lpWidget.model.getPreference('timeout') || 5000;
         });
 
-        Gadgets.pubsub.subscribe(EVENT.NOTIFICATION_MESSAGE, function(data) {
+        lpCoreBus.subscribe(EVENT.NOTIFICATION_MESSAGE, function(data) {
             ctrl.message = data;
             $scope.$apply(); //async stuff, we need to refresh the scope...
 

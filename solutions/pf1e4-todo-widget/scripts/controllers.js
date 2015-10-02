@@ -16,10 +16,8 @@ define(function (require, exports) {
 
 
     // @ngInject
-    exports.MainCtrl = function(lpWidget, $scope, $timeout, Gadgets) {
+    exports.MainCtrl = function(lpWidget, $scope, $timeout, lpCoreBus) {
         var ctrl = this;
-
-        // console.log(Gadgets);
 
         ctrl.tasks = [];
 
@@ -86,12 +84,12 @@ define(function (require, exports) {
 
         /**
          * @method sendNotification
-         * sends a pubsub event viw the gadget library
+         * sends a pubsub event
          * @return undefined
          */
         ctrl.sendNotification = function(notificationType) {
             if(notificationType) {
-                Gadgets.pubsub.publish(EVENT.NOTIFICATION_MESSAGE, {
+                lpCoreBus.publish(EVENT.NOTIFICATION_MESSAGE, {
                     type: notificationType,
                     limit: ctrl.limit,
                     amount: ctrl.tasks.length,
