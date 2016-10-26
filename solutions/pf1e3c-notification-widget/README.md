@@ -16,9 +16,9 @@ In this exercise, you will enable inter-widget communication by making use of Ba
  - Create a notification widget. When you add a todo, this notification widget should display for 5 seconds: **Todo added, total todos {amount of todos}**
  - Implement similar behavior when removing or completing todo's
 
+
 #### Additional resources
 
- - [model.xml](model.xml)
  - [todo widget](../pf1e3c-todo-widget/)
 
 #### References
