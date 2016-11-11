@@ -1,7 +1,5 @@
-<!-- Add NG Template here-->
-
-<div>
+<div ng-controller="MainCtrl as mainCtrl">
     <lp-card title="Notifications">
-        <div ng-if="mainCtrl.message">1 {{mainCtrl.message.thing}} {{mainCtrl.message.type}}! {{mainCtrl.message.amount}} out of {{mainCtrl.message.limit}} {{mainCtrl.message.thing}}'s.</div>
+        <div ng-if="mainCtrl.message">A {{mainCtrl.message.item}} {{mainCtrl.message.action}}! {{mainCtrl.message.amount}} out of {{mainCtrl.message.limit}} {{mainCtrl.message.item}}s.</div>
     </lp-card>
 </div>

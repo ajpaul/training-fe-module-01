@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:g="http://www.backbase.com/2008/gadget" xml:lang="en">
 <head>
+    <title>pf1e3c-notification-widget</title>
     <meta http-equiv="Content-Type" content="text/xml; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="styles/base.css" type="text/css" />
 </head>
 
-<body g:onload="requireWidget(__WIDGET__, 'scripts/main')" ng-controller="MainCtrl as mainCtrl" class="lp-bt-pf1e3c-notification-widget">
-
-    <lp-template src="templates/pf1e3c-notification-widget-tpl.ng.html"></lp-template>
-
+<body g:onload="requireWidget(__WIDGET__, 'scripts/main')" 
+    class="lp-pf1e3c-notification-widget ng-cloak">
+    <div lp-template="'templates/pf1e3c-notification-widget-tpl.ng.html'"></div>
 </body>
 </html>

@@ -19,8 +19,11 @@
                 <value type="string">$(contextRoot)/static/backbase.com.2012.aurora/html/chromes/widget_none.html</value>
             </property>
             <!-- Custom properties-->
-            <property label="Timeout" name="timeout" viewHint="manager,designModeOnly">
+           <property label="Timeout" name="timeout" viewHint="manager,designModeOnly">
                 <value type="string">5000</value>
+            </property>
+            <property label="Show Notification Event" name="showNotificationEventName" viewHint="manager,designModeOnly">
+                <value type="string">notification:show</value>
             </property>
         </properties>
         <tags>
