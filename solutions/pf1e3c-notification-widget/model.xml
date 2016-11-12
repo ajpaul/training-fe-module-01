@@ -20,7 +20,7 @@
             </property>
             <!-- Custom properties-->
            <property label="Timeout" name="timeout" viewHint="manager,designModeOnly">
-                <value type="string">5000</value>
+                <value type="long">5000</value>
             </property>
             <property label="Show Notification Event" name="showNotificationEventName" viewHint="manager,designModeOnly">
                 <value type="string">notification:show</value>

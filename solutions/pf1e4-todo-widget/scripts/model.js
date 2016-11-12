@@ -6,6 +6,7 @@ define( function (require, exports, module) {
 
     'use strict';
 
+    var angular = require('angular');
     var uniqueTasksId = 0;
 
     function isAllowedToAddTask(tasks, limit) {

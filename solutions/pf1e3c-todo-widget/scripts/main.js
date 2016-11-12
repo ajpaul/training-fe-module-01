@@ -19,7 +19,7 @@ define( function (require, exports, module) {
     var ui = require('ui');
 
     // Internal Dependencies
-    var Models = require('./model');
+    var Model = require('./model');
     var MainCtrl = require('./controllers/main-ctrl');
 
     var deps = [
@@ -37,6 +37,6 @@ define( function (require, exports, module) {
     module.exports = base.createModule(module.name, deps)
         .constant('WIDGET_NAME', module.name )
         .controller('MainCtrl', MainCtrl )
-        .service( Models )
+        .service( Model )
         .run( run );
 });

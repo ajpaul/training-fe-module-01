@@ -6,8 +6,6 @@ define(function (require, exports, module) {
 
     'use strict';
 
-    var angular = require('angular');
-
     var emptyModel = {
         done: false,
         description: ''
@@ -85,7 +83,7 @@ define(function (require, exports, module) {
     MainCtrl.prototype.checkSize = function (data) {
         var ctrl = this;
         ctrl.$scope.$evalAsync(function () {
-            ctrl.narrow = data.width && data.width < 400;
+            ctrl.narrow = data.width && data.width < 500;
         });
     };
 

@@ -13,7 +13,7 @@ In this exercise, you will scaffold your first widget, that will become a **todo
 
 #### Steps
 
- - Scaffold a "Todo" widget structure using the **bb generate** command of bb-cli (generate an **lp-widget**)
+ - Scaffold a "Todo" widget structure using the **bb generate** command of bb-cli (generate an **widget-lp**)
  - Open the template, add a heading
  - Use the command **bb import-item** to do the following
     - Create a zip file of your widget
