@@ -18,7 +18,6 @@ In this exercise, you will enable inter-widget communication by making use of Ba
 
 #### Additional resources
 
- - [model.xml](model.xml)
  - [todo widget](../pf1e3c-todo-widget/)
 
 #### References

@@ -19,9 +19,6 @@ In this exercise, you will scaffold your first widget, that will become a **todo
     - Create a zip file of your widget
     - Import your widget in the Enterprise Catalog and enable it for your portal
 
-#### Additional resources
-
- - [model.xml](model.xml)
 
 #### References
 

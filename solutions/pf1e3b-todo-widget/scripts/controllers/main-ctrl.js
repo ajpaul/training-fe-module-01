@@ -41,12 +41,12 @@ define(function (require, exports, module) {
 
         ctrl.TasksService = TasksService;
         ctrl.lpWidget = lpWidget;
-        ctrl.$scope = $scope;
+        ctrl.$scope = $scope;        
     }
 
     MainCtrl.prototype.$onInit = function () {
         // Do initialization here
-        var ctrl = this;
+        var ctrl = this;        
 
         ctrl.narrow = false;
         ctrl.TasksService.setLimit(getLimit(ctrl.lpWidget));
