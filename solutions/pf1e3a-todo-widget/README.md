@@ -16,9 +16,7 @@ In this exercise, you will enhance your widget by making use of preferences and 
  - Based on your preference, your widget should have a maximum number of not done todos
  - User should not be able to add more, until the user marks one as done (or removes one)
 
-#### Additional resources
 
- - [model.xml](model.xml)
 
 #### References
 
