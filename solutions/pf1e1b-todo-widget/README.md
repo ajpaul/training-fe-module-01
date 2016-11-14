@@ -16,7 +16,9 @@ In this exercise, you will amend your first widget, that will become a **todo-mv
  - Add a **limit** preference in your Todo widget
  - Reimport your widget in the Enterprise Catalog to sync the new property
 
+#### Additional resources
 
+ - [model.xml](model.xml)
 
 #### References
 

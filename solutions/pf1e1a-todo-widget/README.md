@@ -13,12 +13,15 @@ In this exercise, you will scaffold your first widget, that will become a **todo
 
 #### Steps
 
- - Scaffold a "Todo" widget structure using the **bb generate** command of bb-cli (generate an **widget**)
+ - Scaffold a "Todo" widget structure using the **bb generate** command of bb-cli (generate an **lp-widget**)
  - Open the template, add a heading
  - Use the command **bb import-item** to do the following
     - Create a zip file of your widget
     - Import your widget in the Enterprise Catalog and enable it for your portal
 
+#### Additional resources
+
+ - [model.xml](model.xml)
 
 #### References
 

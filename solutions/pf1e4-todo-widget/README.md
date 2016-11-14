@@ -19,8 +19,9 @@ In this exercise, you will style your widget using Twitter Bootstrap's CSS toolk
  - The todos that are done, should have a ~~strike-through~~. Todo items that are not done should be bold
  - Create a global behavior, using only CSS. When hovering over an element, a button inside it appears. Use this behavior for your **Delete Todo** buttons
 
+#### Additional resources
 
-
+ - [model.xml](model.xml)
 
 #### References
 
