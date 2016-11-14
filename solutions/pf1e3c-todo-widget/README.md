@@ -17,7 +17,6 @@ In this exercise, you will enable inter-widget communication by making use of Ba
 
 #### Additional resources
 
- - [model.xml](model.xml)
  - [notification widget](../pf1e3c-notification-widget/)
 
 #### References

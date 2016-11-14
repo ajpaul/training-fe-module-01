@@ -1,33 +1,30 @@
-<!-- the template for our widget goes here -->
+<div class="center" ng-controller="MainCtrl as mainCtrl">
 
-<div>
-    
     <h1>Todo Widget</h1>
 
-    <form name="addtask" no-validate ng-submit="mainCtrl.addTask(task)">
+    <form name="newTaskForm" no-validate ng-submit="mainCtrl.addTask(mainCtrl.newTask)">
         <div class="form-group">
             <!-- LP text input UI component -->
-            <div lp-text-input="lp-text-input" placeholder="Enter a task description..." label="Enter a new task:" required ng-model="task.description"></div>
+            <div lp-text-input="lp-text-input" placeholder="Enter a task description..." label="Enter a new task:" required ng-model="mainCtrl.newTask.description"></div>
         </div>
         <div class="form-group">
-            <button type="submit" class="btn" ng-class="{'btn-success': addtask.$valid, 'btn-danger': addtask.$invalid}" ng-disabled="addtask.$invalid">Add Task</button>
+            <button type="submit" class="btn" ng-class="{'btn-success': newTaskForm.$valid, 'btn-danger': newTaskForm.$invalid}" ng-disabled="newTaskForm.$invalid">Add Task</button>
         </div>
     </form>
 
     <!-- LP list component -->
     <div lp-list="lp-list" ng-cloak>
         <!-- LP list item component -->
-        <div lp-item="lp-item" ng-repeat="item in mainCtrl.tasks track by $index" ng-class="{'bt-todo-done': item.done}">
+        <div lp-item="lp-item" ng-repeat="task in mainCtrl.tasks track by task.id" ng-class="{'bt-todo-done': task.done}">
             <!-- LP list item cell component -->
             <div lp-item-cell="lp-item-cell" width="1">
-                <!-- LP checkbox component -->
-                <div lp-checkbox="lp-checkbox" ng-model="item.done"></div>
+                <input type="checkbox" ng-change="mainCtrl.toggleTask(task)" ng-model="task.done" />
             </div>
-            <div lp-item-cell="lp-item-cell" width="9">
-                {{item.description}}
+            <div lp-item-cell="lp-item-cell" class="task-description" width="8">
+                {{task.description}}
             </div>
-            <div lp-item-cell="lp-item-cell" width="2">
-                <button class="btn btn-xs btn-danger" ng-click="mainCtrl.removeTask($index)">Remove</button>
+            <div lp-item-cell="lp-item-cell" width="3">
+                <button class="btn btn-xs btn-danger" ng-click="mainCtrl.removeTask(task)"></i> Remove</button>
             </div>
         </div>
     </div>

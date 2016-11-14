@@ -20,7 +20,7 @@
             </property>
             <!-- Custom properties-->
             <property label="Limit" name="limit" viewHint="manager,designModeOnly">
-                <value type="string">5</value>
+                <value type="long">5</value>
             </property>
         </properties>
         <tags>

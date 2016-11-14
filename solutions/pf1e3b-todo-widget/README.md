@@ -13,11 +13,8 @@ In this exercise, you will enhance your widget by making use of preferences and 
 
 #### Steps
 
- - Make your Todo widget responsive. When less than 400px, the checkboxes should not appear, and the toggling of done/not done should happen by clicking the whole row
+ - Make your Todo widget responsive. When less than 500px, the checkboxes should not appear, and the toggling of done/not done should happen by clicking the whole row
 
-#### Additional resources
-
- - [model.xml](model.xml)
 
 #### References
 
