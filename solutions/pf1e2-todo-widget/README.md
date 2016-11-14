@@ -22,7 +22,9 @@ In this exercise, you will create the basic layout and functionality for your to
  - Try to use as many Launchpad UI components as possible (refer to the documentation in your local styleguide, or [here](http://launchpad.backbase.com:8080/bundles/launchpad-bundles/modules/ui/scripts/components/))
 
 
+#### Additional resources
 
+ - [model.xml](model.xml)
 
 #### References
 
