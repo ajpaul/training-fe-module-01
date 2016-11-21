@@ -55,5 +55,5 @@ define( function (require, exports, module) {
       return angular.copy(this.tasks);
     };
 
-    exports.TasksService = TasksService;
+    module.exports = TasksService;
 });

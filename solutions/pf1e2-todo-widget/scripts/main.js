@@ -37,7 +37,7 @@ define( function (require, exports, module) {
     module.exports = base.createModule(module.name, deps)
         .constant('WIDGET_NAME', module.name )
         .controller('MainCtrl', MainCtrl )
-        .service( Model )
+        .service('TasksService', Model )
         .run( run );
 });
 
